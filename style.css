@@ -1,0 +1,58 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.flex-container {
+    display: flex;
+    background-color: gray;
+}
+
+.flex-item {
+    flex: auto;
+    background-color: lightgrey;
+    text-align: center;
+    margin: 15px;
+}
+
+.top, .middle, .bottom {
+    border: 5px solid black;
+}
+
+.top, .bottom {
+    align-items: center;
+}
+
+.top, .middle {
+    flex-direction: column;
+}
+
+.projects, .skills-autobiography {
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.navigation-bar, .footer-content {
+    background-color: gray;
+}
+
+.navigation-bar {
+    margin: 0px;
+}
+
+.header-logo {
+    margin-bottom: 0;
+}
+
+.footer-logo {
+    flex: 0 0 auto;
+}
+
+.footer-content {
+    line-height: 5px;
+    text-align: left;
+    padding-bottom: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
