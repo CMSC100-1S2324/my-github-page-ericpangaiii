@@ -1,9 +1,11 @@
+/* parent flex-container */
 .parent {
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
 
+/* child flex-container for flex-items */
 .flex-container {
     display: flex;
     background-color: #7c8594;
@@ -17,20 +19,24 @@
     padding: 15px;
 }
 
+/* creates rounded corners for navigation bar */
 .top {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 
+/* creates rounded corners for footer */
 .bottom {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
+/* sets outside border color */
 .top, .middle, .bottom {
     border: 5px solid #2b3d5b;
 }
 
+/* aligns flex-items accordingly */
 .top, .bottom {
     align-items: center;
 }
@@ -60,11 +66,12 @@
     white-space: nowrap;
 }
 
-
+/* sets img border color */
 img {
     border: 2px solid #2b3d5b;
 }
 
+/* creates rounded corners for img and flex-items */
 img, .flex-item {
     border-radius: 20px;
 }
@@ -73,19 +80,17 @@ body {
     color: #0e1d35;
 }
 
+/* sets title and anchor font */
 h1, h2, h3, a {
     font-family: 'Bebas Neue', sans-serif;
 }
 
+/* sets paragraph font */
 p {
     font-family: 'Playfair Display', serif;
     font-size: small;
-}
-
-p {
     text-align: justify;
 }
-
 
 a {
     color: #dddee5;
