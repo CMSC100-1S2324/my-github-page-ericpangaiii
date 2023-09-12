@@ -1,87 +1,127 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Frontend Portfolio</title>
+        <title>Front-end Portfolio Website</title>
         <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
 
     <body>
         <div class="parent">
             <div class="flex-container top">
-                <div class="flex-item header-logo">
-                    <img src=""/>
-                    Logo Placeholder
-                </div>
+                <img src="./images/logo.jpg" style="height: 5vh; margin-top: 15px"/>
                 <div class="flex-item navigation-bar">
-                    <h2>Logo and Navigation Bar</h2>
+                    <a href="#projects">Projects</a> / <a href="#skills">Skills</a> / <a href="#bio">Autobiography</a>
                 </div>
             </div>
 
             <div class="flex-container middle">
                 <div class="flex-item">
-                    <h3>Featured Photo</h3>
-                    <img src=""/>
-                    Photo Placeholder
+                    <h2>ERIC CONRAD V. PANGA III</h2>
+                    <img src="./images/photo.jpg" style="height: 50vh"/>
                 </div>
                 
+                <!-- sample front-end web development projects from the following references: -->
+                <!-- https://www.geeksforgeeks.org/top-10-front-end-web-development-projects-for-beginners/ -->
+                <!-- https://hackernoon.com/10-frontend-projects-to-take-your-coding-skills-to-the-next-level -->
+
+                <div class="flex-container projects" id="projects">
+                    <div class="flex-item">
+                        <h4>Project 1 (Deployed Aug 22, 2018)</h4>
+                        <h3>CRUD Operation Web App</h3>
+                        <p>As a front-end developer, one must be familiar with basic CRUD (Create-Read-Update-Delete) operations.</p>
+                        <p>A To-Do List or a Notes webpage are two examples of CRUD applications.</p>
+                        <p>Because CRUD apps require the usage of reusable components, this web app was developed using frameworks like React and Vue.</p>
+                    </div>
+        
+                    <div class="flex-item">
+                        <h4>Project 2 (Deployed Apr 29, 2021)</h4>
+                        <h3>Music Player</h3>
+                        <p>The architecture for this music player is divided into two main thematic parts: CSS and JavaScript.</p>
+                        <p>CSS for adding styling to each element defined in the HTML file;</p>
+                        <p>And JavaScript for adding elements for audio, player buttons, and music information.</p>
+                    </div>
+        
+                    <div class="flex-item">
+                        <h4>Project 3 (Deployed Feb 11, 2022)</h4>
+                        <h3>QR Code Reader</h3>
+                        <p>This project uses a JS library which decodes the QR code.</p>
+                        <p>Contrary to popular belief, one does not require a native phone app to read QR codes.</p>
+                        <p>Websites that operate on a smart device with a camera may be able to accomplish this.</p>
+                    </div>
+        
+                    <div class="flex-item">
+                        <h4>Project 4 (Deployed Nov 20, 2019)</h4>
+                        <h3>Weather App</h3>
+                        <p>This application was created using mainly HTML, CSS, and JavaScript.</p>
+                        <p>Open Weather Map API was used to add the essential weather information.</p>
+                        <p>AngularJS was also employed to present the information in a pleasing manner.</p>
+                    </div>
+                </div>
+
                 <div class="flex-container projects">
                     <div class="flex-item">
-                        <h4>Project 1</h4>
-                        <p>Project description</p>
-                        <p>Project description</p>
-                        <p>Project description</p>
+                        <h4>Project 5 (Deployed Aug 20, 2019)</h4>
+                        <h3>Landing Page</h3>
+                        <p>This landing page was created by exploring Bootstrap's capabilites.</p>
+                        <p>Bootstrap streamlines any front-end developer's job and boosts their outputs.</p>
+                        <p>The user's time and name can be displayed from local storage.</p>
                     </div>
         
                     <div class="flex-item">
-                        <h4>Project 2</h4>
-                        <p>Project description</p>
-                        <p>Project description</p>
-                        <p>Project description</p>
+                        <h4>Project 6 (Deployed Nov 13, 2022)</h4>
+                        <h3>Basic Calculator</h3>
+                        <p>This calculator project can perform basic arithmetic functionalites like addition and multiplication.</p>
+                        <p>The user interface was designed with buttons and a display screen.</p>
+                        <p>CSS Grid was used to align the buttons and the screen.</p>
                     </div>
         
                     <div class="flex-item">
-                        <h4>Project 3</h4>
-                        <p>Project description</p>
-                        <p>Project description</p>
-                        <p>Project description</p>
+                        <h4>Project 7 (Deployed Jan 27, 2019)</h4>
+                        <h3>Accordion</h3>
+                        <p>The accordion has four sections that expand and collapse.</p>
+                        <p>The component was designed using HTML, CSS, JavaScript, and React.</p>
+                        <p>It is also responsive and displays correctly on different screen sizes.</p>
                     </div>
         
                     <div class="flex-item">
-                        <h4>Project 4</h4>
-                        <p>Project description</p>
-                        <p>Project description</p>
-                        <p>Project description</p>
+                        <h4>Project 8 (Deployed Feb 08, 2022)</h4>
+                        <h3>Calendar Viewer</h3>
+                        <p>The component displays a calendar with the current month and year, along with the days of the week.</p>
+                        <p>Users can navigate to previous and next months by clicking on buttons or arrows.</p>
+                        <p>It can also save events in local storage, so they persist between page reloads.</p>
                     </div>
-                    
                 </div>
-    
-                <div class="flex-container skills-autobiography">
-                    <div class="flex-item">
+                
+                <!-- sample front-end developer skills from the following reference: -->
+                <!-- https://resumeworded.com/front-end-developer-resume-examples -->
+
+                <div class="flex-container skills-bio">
+                    <div class="flex-item" id="skills">
                         <h3>Skills</h3>
-                        <p>Skills description</p>
-                        <p>Skills description</p>
-                        <p>Skills description</p>
+                        <p><b>Languages: </b>HTML, CSS, JavaScript, TypeScript</p>
+                        <p><b>Libraries: </b>React, jQuery</p>
+                        <p><b>Frameworks: </b>Angular.js, Vue.js, Bootstrap.js</p>
+                        <p><b>Testing: </b>Enzyme, Jest</p>
+                        <p><b>CI / CD: </b>Git</p>
+                        <p><b>Hard Skills: </b>Web Programming (Advanced), Networking, UI Designing</p>
                     </div>
             
-                    <div class="flex-item">
-                        <h3>Autobiography</h3>
-                        <p>Autobiography description</p>
-                        <p>Autobiography description</p>
-                        <p>Autobiography description</p>
+                    <div class="flex-item" id="bio">
+                        <h3>Profile</h3>
+                        <p>Courteous and enthusiastic, I am interested in IT and everything in its orbit. I recently began to be fascinated by web programming e.g. developing  apps and building websites.</p>
+                        <p>Hailing from the BS Computer Science degree program of UPLB and being invited to join my friend's start-up company, I gained experience in these areas.</p>
+                        <p>I am keen to gain more experience in this field. For this reason I am looking for a company to offer me a placement among their developers, specifically as a front-end software engineer.</p>
                     </div>
                 </div>
             </div>
 
             <div class="flex-container bottom">
-                <div class="flex-item footer-logo">
-                    <img src=""/>
-                    Logo Placeholder
-                </div>
+                <img src="./images/logo.jpg" style="height: 5vh; margin-left: 15px"/>
                 <div class="flex-item footer-content">
-                    <p>Footer Contents</p>
-                    <p>Logo, Address / Contact Information, and Personal Website</p>
-                    <p>Copyright Information</p>
-                    <a href="">Back to Top</a>
+                    <p><b>Footer Contents</b></p>
+                    <p>+63 977 241 9374 / evpanga2@up.edu.ph</p>
+                    <p>Copyright All Rights Reserved &copy 2023</p>
+                    <a href="#top">Back to Top</a>
                 </div>
             </div>
         </div>
